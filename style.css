@@ -1,0 +1,82 @@
+/*CSS should be used to change the background color and font color/family.*/
+body{
+	background-color: black;
+	font-family: "Courier New";
+	color: white;
+}
+
+h1{
+	text-align:center;
+}
+h2{
+	margin-right:25%;
+	text-align:center;
+}
+
+h3{
+	margin-left:0%;
+	text-align:center;
+}
+
+p{
+	margin-left:2%;
+	margin-bottom:4%;
+}
+
+ul{
+	margin-left:2%;
+	margin-bottom:4%;
+	list-style-position: inside;
+}
+
+ul.a{
+	list-style-type: square;
+}
+
+body{
+	background-color: black;
+	font-family: "Courier New";
+	color: white;
+}
+
+a{
+	color: grey;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    text-shadow: 2px 2px blue;
+}
+
+@media(min-width:768px){
+	
+.container-1{
+	display:inline-flex;
+	flex-basis:33.33%;
+	justify-content: center !important;
+	flex-wrap:wrap;
+}
+
+}
+
+.box-1{
+	flex:1;
+	flex-basis:300px;
+}
+
+.box-2{
+	flex:1;
+	flex-basis:300px;
+}
+
+.box-3{
+	flex:1;
+	flex-basis:300px;
+}
+
+footer{
+	width:100%;
+	float:left;
+	margin-top:25px;
+	margin-bottom:25px;
+	text-align:center;
+}
