@@ -109,6 +109,20 @@
   }
 }
 	  
+	  @media (min-width: 1200px) {
+	#bookmarks {
+		display:none;
+  }
+}
+	  
+	  @media (min-width: 1200px) {
+	#title {
+		width: 100%;
+        text-align: center;
+		margin-bottom: 20px;
+  }
+}
+	  
 	  @media (max-width: 1200px) {
   .row {
     justify-content: center;
@@ -194,7 +208,7 @@
 
     <!--A h1 showing your name-->
 		<div class="row mb-3 text-center">
-		<div class="col-6">
+		<div id="title" class="col-6">
 		<h1> James Kinlan </h1>
 
 		<!--A h3 showing your email address and contact details-->
@@ -203,7 +217,7 @@
 		</div>
 		
 		<!--Links to sections-->
-		<div class="col-6">
+		<div id="bookmarks" class="col-6">
 		<h6> Bookmarks:</h6>
 		<h3><a href="#education">Education</a> <br>
 		<a href="#experiance">Experiance</a> <br>
@@ -276,7 +290,7 @@
 		<!--An unordered list of skills-->
 		<div class="col-3">
 		<h2 id="skills"> Skills </h2>
-			<ul class="a">
+			<ul>
 				<li>IT Project Coordination</li>
 				<li>Communication</li>
 				<li>Confidentially</li>
